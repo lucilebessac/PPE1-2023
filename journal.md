@@ -1,4 +1,5 @@
-#PPE1 20/09/2023
+# JOURNAL DE BORD PPE1 
+## 20/09/2023
 
 - clair : On a déjà fait un projet similaire en licence
 
