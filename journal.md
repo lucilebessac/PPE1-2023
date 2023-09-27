@@ -6,3 +6,7 @@
 - à travailler : Mais je me rends compte que je n’ai pas encroe les automatismes
 - à travailler : Jamais utilisé GitHub
 - attention à ne pas se reposer sur ses lauriers
+
+## 27/09/2023
+
+- 
