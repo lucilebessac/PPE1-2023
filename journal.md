@@ -22,5 +22,3 @@
 ## ERREURS A SUPPRIMER
 
 ## S3 04/10/2023 EXOS
-=======
->>>>>>> parent of 10a5164 (I AM ERROR)
