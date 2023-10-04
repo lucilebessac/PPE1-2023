@@ -17,3 +17,5 @@
 - Journal modifié sur ma machine
 - modification committed
 - modification pushed
+
+## ERREURS A SUPPRIMER
