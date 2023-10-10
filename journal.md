@@ -27,3 +27,4 @@
 ## 10/10/2023 2E ESSAI EXO
 - Ceci est un test
 - J'essaie de tagger cette modif 'exofaitle1010'
+- Je démarre l'exo 2
