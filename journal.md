@@ -20,3 +20,4 @@
   
 ## S3 04/10/2023 EXOS
 - Je tente de refaire l'exo chez moi
+- essai 2
