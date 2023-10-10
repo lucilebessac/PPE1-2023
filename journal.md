@@ -21,3 +21,5 @@
 ## S3 04/10/2023 EXOS
 - Je tente de refaire l'exo chez moi
 - essai 2
+- L'essai 2 a marché ! Pour modifier mon journal nano journal.md / ctrl O enter ctrl X enter
+- Maintenant j'essaie de modifier ne ligne et pull
