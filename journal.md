@@ -28,3 +28,4 @@
 - Ceci est un test
 - J'essaie de tagger cette modif 'exofaitle1010'
 - Je démarre l'exo 2
+- Je n'ai pas compris les consignes. Je ne sais pas si l'exo doit être fait en classe ou chez soi. Je ne sais pas quand push les commit et quand push les tags. Je ne sais pas si "pousser" signifie push ou pas.
