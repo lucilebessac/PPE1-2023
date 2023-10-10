@@ -18,8 +18,5 @@
 - modification committed
 - modification pushed
   
-## ERREURS A SUPPRIMER
-
 ## S3 04/10/2023 EXOS
-
-##SEANCE 3 N2
+- Je tente de refaire l'exo chez moi
