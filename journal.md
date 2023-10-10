@@ -23,3 +23,6 @@
 - essai 2
 - L'essai 2 a marché ! Pour modifier mon journal nano journal.md / ctrl O enter ctrl X enter
 - Maintenant j'essaie de modifier en ligne et pull
+
+## 10/10/2023 2E ESSAI EXO
+- Ceci est un test
