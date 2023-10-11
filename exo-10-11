@@ -1,1 +1,4 @@
 ## COMPTER LES ANNOTATIONS
+cat ./2016/ann/* | wc -l
+cat ./2017/ann/* | wc -l
+cat ./2018/ann/* | wc -l
