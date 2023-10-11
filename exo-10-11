@@ -2,3 +2,5 @@
 cat ./2016/ann/* | wc -l
 cat ./2017/ann/* | wc -l
 cat ./2018/ann/* | wc -l
+
+## LIMITER CE COMPTAGE AUX LIEUX
