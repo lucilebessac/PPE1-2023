@@ -4,3 +4,9 @@ cat ./2017/ann/* | wc -l
 cat ./2018/ann/* | wc -l
 
 ## LIMITER CE COMPTAGE AUX LIEUX
+echo "Locations in 2016" > reponses.txt 
+cat ./2016/ann/*.ann | grep Location | wc -l >> reponses.txt
+echo "Locations in 2017" >> reponses.txt 
+cat ./2017/ann/*.ann | grep Location | wc -l >> reponses.txt
+echo "Locations in 2018" >> reponses.txt 
+cat ./2018/ann/*.ann | grep Location | wc -l >> reponses.txt
