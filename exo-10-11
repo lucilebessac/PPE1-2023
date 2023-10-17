@@ -18,3 +18,11 @@ echo "20 Lieux les plus cités en 2017" >> reponses.txt
 cat ./2017/ann/* | grep Location | cut -f 3 | sort | uniq -c | sort -n -r | head -n 20 >> reponses.txt 
 echo "20 Lieux les plus cités en 2018" >> reponses.txt 
 cat ./2018/ann/* | grep Location | cut -f 3 | sort | uniq -c | sort -n -r | head -n 20 >> reponses.txt 
+
+
+echo "Locations in 2016"
+cat ./Fichiers/2016/ann/*.ann | grep Location | wc -l
+echo "Locations in 2017"
+cat ./Fichiers/2017/ann/*.ann | grep Location | wc -l
+echo "Locations in 2018"
+cat ./Fichiers/2018/ann/*.ann | grep Location | wc -l
