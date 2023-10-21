@@ -28,3 +28,10 @@
 - Ceci est un test
 - J'essaie de tagger cette modif 'exofaitle1010'
 - Je démarre l'exo 2
+
+## 21/10/2023
+- Avec mon groupe nous avions réfléchi à un mot et nous avons plusieurs idées :
+	* Soit un animal qui apparaisse dans le folklore des cultures auxquelles sont liées les langues, afin de voir comment l'animal est connoté : exemple --> Dans le folklore français le renard est plutôt synonyme de ruse, d'animal malveillant alors que dans le folklore russe il est plutôt intelligent et bienveillant
+	* Soit la sorcière pour à peu près la même raison : est-elle connotée positivement ou négativement ?
+	* Soit les emoticones pour voir leurs utiliisations : pb : différneces d'encodage voire non-utilisation de certains dans certaines cultures : les russes utilisent peu :) et mettent plutôt une ou plusieurs parenthèses fermantes à la fin de leur message . exemple : ceci est un exemple))
+
