@@ -35,3 +35,14 @@
 	* Soit la sorcière pour à peu près la même raison : est-elle connotée positivement ou négativement ?
 	* Soit les emoticones pour voir leurs utiliisations : pb : différneces d'encodage voire non-utilisation de certains dans certaines cultures : les russes utilisent peu :) et mettent plutôt une ou plusieurs parenthèses fermantes à la fin de leur message . exemple : ceci est un exemple))
 
+- Exo valider les arguments : J'ai modifié mon code de la semaine dernière.
+Celui-ci ne marchait en fait pas bien car il calculait pour une année sans prendre en compte le mois.
+
+J'ai réussi à faire valider ma variable année avec :
+if [ -d ./Fichiers/$annee/ann/ ]
+Mais maintenant je suis bloquée. afin de valider ma variable $mois, j'essaye de faire :
+		if [ -f ./Fichiers/$annee/ann/$annee'_'$mois* ]
+Or ça ne marche pas car ça ne prend pas les valeurs de * une par une mais toutes ensemble.
+Je comprends l'erreur mais je ne réussis pas à la rectifier et je suis bloquée.
+J'aurais bien fait une condition if qui va chercher dans une liste les valeurs ocrrectes mais si je comprends bien les listes n'existent pas en bash. 
+J'ai essayé de mettre ./Fichiers/$annee/ann/$annee'_'$mois* dans une variable mais ça ne change rien, j'ai essayé de faire une boucle for mais sans succès
