@@ -46,3 +46,9 @@ Or ça ne marche pas car ça ne prend pas les valeurs de * une par une mais tout
 Je comprends l'erreur mais je ne réussis pas à la rectifier et je suis bloquée.
 J'aurais bien fait une condition if qui va chercher dans une liste les valeurs ocrrectes mais si je comprends bien les listes n'existent pas en bash. 
 J'ai essayé de mettre ./Fichiers/$annee/ann/$annee'_'$mois* dans une variable mais ça ne change rien, j'ai essayé de faire une boucle for mais sans succès
+
+## 07/11/2023
+- J'ai quasiment terminé le travail en cours la dernière fois mais j'ai oublié de le mettre sur mon git
+- J'ai l'impression de toujours être attentive et motivée en cours mais dès que je sors de la salle j'oublie tout.
+- J'ai tout de même upload mon travail, mais en 1 semaine de vacances j'avais oublié les commandes exactes pour faire un tag.
+- J'ai le sentiment que j'avance d'une case pour reculer de 2 à chaque fois.
