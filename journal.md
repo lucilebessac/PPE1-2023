@@ -52,3 +52,8 @@ J'ai essayé de mettre ./Fichiers/$annee/ann/$annee'_'$mois* dans une variable m
 - J'ai l'impression de toujours être attentive et motivée en cours mais dès que je sors de la salle j'oublie tout.
 - J'ai tout de même upload mon travail, mais en 1 semaine de vacances j'avais oublié les commandes exactes pour faire un tag.
 - J'ai le sentiment que j'avance d'une case pour reculer de 2 à chaque fois.
+
+## 13/11/2023
+- git tag -a -m "message" tagname commitname
+- git push origin
+- il me tarde de réellemnt commencer le projet en groupe car pour l'instant je ne vois pas trop où on va.
