@@ -1,26 +1,28 @@
 #!/usr/bin/env bash
-url=$1
-N=0
 
-if [ $# -ne 1 ]
+if [[ $# -ne 1 ]];
 then
-	echo "Exactement un argument attendu"
+	echo "On veut exactement un argument au script."
 	exit
 fi
 
-if [ -f $url ]
+URLS=$1
+
+if [ ! -f $URLS ]
 then
-	echo "On a bien un fichier"
-else
-	echo "On attend un fichier qui existe"
+	echo "On attend un fichier, pas un dossier"
 	exit
 fi
 
-while read -r line;
+echo "<html><head></head><body><table>" > ../Tableaux/miniprojet.html
+echo "<tr><th>ligne</th><th>code</th><th>URL</th><th>encodage</th></tr>" >> ../Tableaux/miniprojet.html
+lineno=1
+while read -r URL
 do
-	N=$(expr $N + 1)
-	#-s pour silent / -o pour rediriger l'output vers dev/null  -w pour rediriger vers stdout
-	echo -e "${N}\t${line}\t$(curl -s -o /dev/null -w '%{http_code}' $line)";
-	echo "$(curl -I $line)"
-done < $url;
+	response=$(curl -s -I -L -w "%{http_code}" -o /dev/null $URL)
+	encoding=$(curl -s -I -L -w "%{content_type}" -o /dev/null $URL | grep -P -o "charset=\S+" | cut -d"=" -f2 | tail -n 1)
+	echo "<tr><td>$lineno</td><td>$URL</td><td>$response</td><td>$encoding</td></tr>" >> ../Tableaux/miniprojet.html
+	lineno=$(expr $lineno + 1)
+done < "$URLS"
 
+echo "</table></body></html>" >> ../Tableaux/miniprojet.html
